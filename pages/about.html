@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KKS Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"
+        integrity="sha512-tQQXRDB2wEmuJGtFrmmoFYzNTq8StA1XJrfO0OQbbTxd9G0CwaTDL6/C1y805IlvBVrMwOqob1kf6r/2U5XXVg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Poppins:wght@400;700&family=Raleway:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/style/style.css">
+    <style>
+        .leftSection {
+            font-size: 2rem;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">KKS's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="https://www.linkedin.com/in/kiran-kumar-sahu-216004218/" target="_blank">Contact Me</a></li>
+                    <!-- <li><a href="certification.html">Certifications</a></li> -->
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hello <span class="purple">Kiran</span> this side
+                <!-- <div>and I am a passionate</div> -->
+                <p style="font-size: 1rem;">Welcome to this small summary of <span class="purple"
+                        style="font-weight: bolder;">"Tell me something about Yourself".</span></p>
+                <!-- <div>Developer and an Analyst</div> -->
+                <div>
+                    <span id="element1" style="font-size: 1rem;"></span><br>
+                    <span id="element2" style="font-size: 1rem;"></span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- <footer>
+        <div class="footer-rights">
+            Copyright &#169; www.kksportfolio.com | All Rights Reserved
+        </div>
+    </footer> -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element1', { strings: ["Firstly let me introduce myself without taking much time of yours."], typeSpeed: 10 });
+        var typed = new Typed('#element2', {
+            strings: ["My name is Kiran Kumar Sahu and I am perusing Masters in Computer Application with AI/ML specialization.Basically my hobby is Photography but to fulfill my hobbies I want a job which will justify my skills too.\nThis is my resume comprising of all the details of my academic timespan. I hope you gonna checkout my skills as mentioned below. I am also having an active participation on LinkedIn. So, you can also find me and my certifications on LinkedIn.\nThank You"],
+            typeSpeed: 10
+        });
+
+    </script>
+</body>
+
+</html>
